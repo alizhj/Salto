@@ -1,0 +1,280 @@
+/* ############### mobile ################# */
+
+@font-face {
+	font-family: 'TravelingTypewriter';
+	src: url("../font_face/TravelingTypewriter.otf");
+	src: url("../font_face/TravelingTypewriter.ttf");
+}
+
+body {
+	background-color: #eee;
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 1em;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/* ######################################## */
+/* ############### navigation ############# */
+/* ######################################## */
+
+ol {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol li {
+	list-style-type: none;
+}
+
+ol a {
+	background-color: #eee;
+	border-bottom: 1px solid #777;
+	display: block;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	width: 100%;
+}
+
+ol li:first-child {
+	border-top: 1px solid #777;
+}
+
+.navigation_mobile {
+	background-color: #eee;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.navigation_mobile img {
+	display: block;
+	height: 40px;
+	width: 40px;
+}
+
+.navigation_mobile a:link {
+	color: black;
+}
+
+.navigation_mobile a:visited {
+	color: black;
+}
+
+.navigation_desktop {
+	display: none;
+}
+
+/* ######################################## */
+/* ################# header ############### */
+/* ######################################## */
+
+.header {
+	background-color: black;
+	height:100%;
+}
+
+.logo_desktop img {
+	display: block;
+	height: 100px;
+	margin: 0 auto;
+	overflow:auto;
+	width: 200px;
+}
+
+/* ######################################## */
+/* ############### slideshow ############## */
+/* ######################################## */
+
+.slider { 
+	display: none;
+}
+
+/* ######################################## */
+/* ############ content index ############# */
+/* ######################################## */
+
+video {
+	height: auto;
+	width: 100% !important;
+}
+
+#video {
+	margin: 5%;
+}
+
+.intro {
+	padding: 5% 5% 0;
+}
+
+.sanna_elsa_image {
+	margin: 0 auto;
+	padding: 5%;
+}
+
+.sanna_elsa_image img {
+	display: block;
+	width: 100%;
+}
+
+/* ######################################## */
+/* ################# om oss ############### */
+/* ######################################## */
+
+.info, .headline {
+	padding-left:5%;
+	padding-right: 5%;
+}
+
+.dancers a {
+	color: black;
+	text-decoration: none;
+}
+
+form {
+	background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+	background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+	border: 1px solid #999;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	color: #505257;
+	height: 450px;
+	line-height: 24px;
+	margin: 5%;
+	margin-bottom: 20px;
+	padding: 10px;
+	text-decoration: none;
+	width: 85%;
+}
+
+input#radio_private, input#radio_company {
+	box-shadow: none;
+	display:inline;
+	line-height: 20%;
+	width:5%;
+}
+
+span{
+	padding-right:2%;
+}
+
+input {
+	border: 1px solid #999;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	display: block;
+	height: 25px;
+	width: 95%;
+}
+
+textarea#feedback {
+	height: 130px;
+	width: 95%;
+}
+
+textarea {
+	display:block;
+}
+
+input[type=button] {
+	background: #505257;
+	border: 1px solid #999;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	color: #fff;
+	font-family: Tahoma, Geneva, sans-serif;
+	height: 30px;
+	margin-top: 5px;
+	width: 100px;
+}
+
+input[type=button]:hover {
+	background: #fff;
+	color: #505257;
+}
+
+textarea:focus, input:focus {
+	border: 1px solid #09C;
+}
+
+/* ######################################## */
+/* ################# footer ############### */
+/* ######################################## */
+
+a[href*="facebook"] {
+	background: url("../images/facebook_logo.jpg") no-repeat;
+	line-height: 30px;
+	padding-left: 30px;
+}
+
+a[href*="instagram"]{
+	background: url("../images/instagram_logo.jpg") no-repeat;
+	line-height: 25px;
+	padding-left: 30px;
+} 
+
+a[href*="twitter"] {
+	background: url("../images/twitter_logo.jpg") no-repeat;
+	line-height: 35px;
+	padding-left: 30px;
+}
+
+#footer {
+	background-color: black;
+	color: #eee;
+	height: 190px;
+}
+
+.contact_footer {
+	float: left;
+	margin-top: 1%;
+	margin-left: 3%;
+}
+
+.contact_footer a, .extern_links a {
+	color: #eee;
+	text-decoration: none;
+}
+
+.contact_footer a:hover, .extern_links a:hover, .dancers a:hover {
+	text-decoration: underline;
+}
+
+.extern_links {
+	float: right;
+	margin-top: 1%;
+	margin-right: 3%;
+}
+
+.extern_links ul {
+	list-style-type: none;
+}
+
+.extern_links ul li {
+	padding-bottom: 3%;
+}
+
+.copyright {
+	font-family: TravelingTypewriter, sans-serif;
+	text-align: center;
+}
+
+
+

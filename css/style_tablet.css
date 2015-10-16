@@ -1,0 +1,123 @@
+/* ############### tablet ################# */
+
+body {
+	background-image: url("../images/spotlight_background.jpg");
+}
+
+/* ######################################## */
+/* ############### navigation ############# */
+/* ######################################## */
+
+.navigation_mobile {
+	display: none;
+}
+
+.navigation_desktop {
+	display: block;
+}
+
+.navigation_desktop {
+	color:#eee;
+	float:right;
+	margin-top: 25px;
+	margin-right: 50px;
+}
+
+.navigation_desktop li {
+	display:inline;
+	font-size: 1.3em;
+	margin-right: 20px;
+}
+
+.navigation_desktop a:link {
+	color: white;
+	text-decoration: none;
+}
+.navigation_desktop a:visited {
+	color: white;
+	text-decoration: none;
+}
+.navigation_desktop a:hover {
+	color: #777;
+	text-decoration: none;
+}
+
+/* ######################################## */
+/* ################# header ############### */
+/* ######################################## */
+
+.header {
+	height:100px;
+	margin-top: 20px;
+}
+
+.logo_desktop img{
+	margin-left:20px; 
+}
+
+.logo_desktop {
+	float:left;
+}
+
+/* ######################################## */
+/* ############### slideshow ############## */
+/* ######################################## */
+
+.slider {
+	display: block;
+	height: 350px;
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 640px;
+}
+
+/* ####################################### */
+/* ############# content index ########### */
+/* ####################################### */
+
+.content {
+	max-width: 100%;
+}
+
+.intro {
+	float: left;
+	width: 40%;
+}
+
+.sanna_elsa_image {
+	margin-left: 50%;
+}
+
+/* ######################################## */
+/* ################# om oss ############### */
+/* ######################################## */
+
+.info {
+	float:left;
+	width:40%;
+}
+
+.dancers, .picture {
+	float:left;
+}
+
+.about {
+	width: 100%;
+}
+
+input {
+	width: 60%;
+}
+
+/* ######################################## */
+/* ################# footer ############### */
+/* ######################################## */
+
+.contact_footer {
+	margin-left: 50px;
+}
+
+.extern_links {
+	margin-right: 70px;
+}
+
